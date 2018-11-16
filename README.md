@@ -26,14 +26,14 @@ Steps to mount a webserver on your laptot in order to make test
 * ``sudo apt-get install php libapache2-mod-php5 php5-mycrypt``
 * ``sudo apt-get install php5-sqlite``
 
-+++ Install a GUI for bbdd +++
+**+++ Install a GUI for bbdd +++**
 
-sudo apt-get install phpmyadmin
+* ``sudo apt-get install phpmyadmin``
 
-+++ If you want to disable apache wake on boot +++
+**+++ If you want to disable apache wake on boot +++**
 
-sudo update-rc.d apache2 disable
+* ``sudo update-rc.d apache2 disable``
 
-+++ If you want to host the website at your test server you should copy htlm folder of the repository on the directory /var/www of your filesystem +++
+**+++ If you want to host the website at your test server you should copy htlm folder of the repository on the directory /var/www of your filesystem +++**
 
-cp /home/RobotechServer-Project/html /var/www
+``cp /home/RobotechServer-Project/html /var/www``
