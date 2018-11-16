@@ -33,3 +33,7 @@ sudo apt-get install phpmyadmin
 +++ If you want to disable apache wake on boot +++
 
 sudo update-rc.d apache2 disable
+
++++ If you want to host the website at your test server you should copy htlm folder of the repository on the directory /var/www of your filesystem +++
+
+cp /home/RobotechServer-Project/html /var/www
