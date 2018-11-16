@@ -7,24 +7,24 @@ The whole files and docs to make a DIY Raspberry pi server which manages your ma
 Steps to mount a webserver on your laptot in order to make test
 
 
-sudo apt-get update
+* ``sudo apt-get update``
 
-+++ To install webserver +++
+**+++ To install webserver +++**
 
-sudo apt-get install apache2
+* ``sudo apt-get install apache2``
 
-sudo service apache2 restart
+* ``sudo service apache2 restart``
 
-+++ To install and set up bbdd +++
+**+++ To install and set up bbdd +++**
 
-sudo apt-get install mysql-server php5-mysql
-mysql -u root
-mysql -u root -p (sin no introdujiste el password durante la instalación)
+* ``sudo apt-get install mysql-server php5-mysql``
+* ``mysql -u root``
+* ``mysql -u root -p`` (sin no introdujiste el password durante la instalación)
 
-+++ Install php +++
+**+++ Install php +++**
 
-sudo apt-get install php libapache2-mod-php5 php5-mycrypt
-sudo apt-get install php5-sqlite
+* ``sudo apt-get install php libapache2-mod-php5 php5-mycrypt``
+* ``sudo apt-get install php5-sqlite``
 
 +++ Install a GUI for bbdd +++
 
