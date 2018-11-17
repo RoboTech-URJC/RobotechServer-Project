@@ -18,7 +18,7 @@ Steps to mount a webserver on your laptot in order to make test
 
 **+++ To install and set up bbdd +++**
 
-* ``sudo apt-get install mysql-server`
+* ``sudo apt-get install mysql-server``
 * ``mysql -u root``
 * ``mysql -u root -p`` (sin no introdujiste el password durante la instalación)
 
