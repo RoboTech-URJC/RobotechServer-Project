@@ -117,3 +117,9 @@ $(document).ready(function() {
   });
 
 });
+
+function blink() {
+    var imagen = document.images["underscore"];
+    imagen.style.visibility = (imagen.style.visibility == "visible") ? "hidden" : "visible";
+    }
+    setInterval("blink()", 500);
