@@ -1033,10 +1033,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #666;
   }
 
-  .container {
-    width: 100%;
-    height: auto;
-  }
+    .container {
+        width: 100%;
+        height: auto;
+    }
   .container .form-group {
     border-radius: 10px;
     padding: 30px;
@@ -1132,4 +1132,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .bg-register {
     background-color: #e74c3c;
+  }
+
+  .logo-responsive{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto ;
+      width: 100%;
   }

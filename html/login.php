@@ -27,7 +27,6 @@
             <div class="form-group">
                 <div class="btn-group">
                     <button class="signup-btn"><i class="fa fa-user"> </i>&nbsp;Registrarse</button>
-                    <!-- <br><br><br> -->
                     <button class="login-btn"><i class="fa fa-lock"> </i>&nbsp;Login</button>
                 </div>
                 <form class="register-form" name="registerform" method="post" action="php/register.php">

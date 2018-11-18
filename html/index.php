@@ -52,13 +52,16 @@
   <section class="hero">
     <div class="container text-center">
       <div class="row">
-        <div class="col-md-12">
-          <a class="hero-brand" href="index.html" title="Home"><img src="img/logo_no_underscore.png"><img name = "underscore" src = "img/underscore.png"></a>
-        </div>
+        <table border="0" width="auto" height="auto"><tr>
+            <td style="width:25%"><center></center></td>
+            <td><center><img  class="logo-responsive" src="img/logo_no_underscore.png" border="0"></center></td>
+            <td><center><img  class="logo-responsive" name="underscore" src="img/underscore.png" border="0"></center></td>
+            <td style="width:25%"><center></center></td>
+        </tr></table>
       </div>
-
+      <br><br><br>
       <div class="col-md-12">
-        <h1 >
+        <h1 class="">
             Asociacion de estudiantes de la URJC.
         </h1>
 
