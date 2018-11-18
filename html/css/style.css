@@ -204,8 +204,8 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #FF8000;
-  height: 70px;
+    background: #FF8000;
+    height: 70px;
 }
 
 #header #logo {
@@ -277,7 +277,7 @@ a:hover {
   position: absolute;
   display: none;
   top: 100%;
-  left: 0;
+  left: 10;
   z-index: 99;
 }
 
@@ -324,7 +324,7 @@ a:hover {
 
 /* Nav Meu Container */
 #nav-menu-container {
-  margin: 0;
+  margin: : 0;
 }
 
 @media (max-width: 768px) {
@@ -1026,11 +1026,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   ================================================== */
 
   .signup-slide {
-    background-color: #FF8000;
+    background-color: #666;
   }
 
   .login-slide {
-    background-color: #FF8000;
+    background-color: #666;
   }
 
   .container {
@@ -1041,7 +1041,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 10px;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.3);
-    width: 250px;
     margin: auto;
     top: 50%;
     left: 50%;
@@ -1078,7 +1077,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 0;
     color: #fff;
     font-weight: lighter;
-    box-sizing: border-box;
+    box-sizing: inherit  !important;
   }
   .container .form-group input::-webkit-input-placeholder, .container .form-group .login-option::-webkit-input-placeholder {
     color: #abebc6;
@@ -1123,7 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 5px;
     text-align: center;
     font-weight: bold;
-    box-sizing: border-box;
+    box-sizing: inherit !important;
     margin: 20px 0 0;
   }
 

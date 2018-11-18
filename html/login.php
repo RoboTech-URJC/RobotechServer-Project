@@ -12,16 +12,22 @@
 
         <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
+
+    <?php
+        include 'header.html';
+    ?>
+
+    <span>
         <div class="container bg-slide">
             <div class="form-group">
                 <div class="btn-group">
                     <button class="signup-btn"><i class="fa fa-user"> </i>&nbsp;Registrarse</button>
-                    <br><br>
+                    <!-- <br><br><br> -->
                     <button class="login-btn"><i class="fa fa-lock"> </i>&nbsp;Login</button>
                 </div>
                 <form class="register-form" name="registerform" method="post" action="php/register.php">
@@ -49,6 +55,6 @@
                 </form>
             </div>
         </div>
-    </body>
+    </span>
 
 </html>
