@@ -37,4 +37,9 @@ Steps to mount a webserver on your laptot in order to make test
 
 **+++ If you want to host the website at your test server you should copy htlm folder of the repository on the directory /var/www of your filesystem +++**
 
-``cp /home/RobotechServer-Project/html /var/www``
+``rm -r /var/www/html``
+
+``cd /var/www``
+
+``git clone https://github.com/RoboTech-URJC/RobotechServer-Project.git html``
+
