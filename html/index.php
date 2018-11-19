@@ -62,7 +62,7 @@
                 <br><br><br>
                 <div class="col-md-12">
                     <h1 class="">
-                    Asociacion de estudiantes de la URJC
+                    Asociación de Tecnología de la URJC
                     </h1>
                 </div>
             </div>
@@ -74,12 +74,13 @@
         <section class="about" id="about">
             <div class="container text-center">
                 <h2>
-                About Bell Theme
+                Sobre Nosotros
                 </h2>
 
                 <p>
-                Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. Menandri
-                temporibus an duo.
+                Somos una asociación de robótica y tecnología de la Universidad Rey Juan Carlos. Entre nuestros propósitos destacan la aplicación práctica de los conocimientos
+                adquiridos en el grado y el fomento de la vida universitaria más allá de aquello que es puramente académico; así como contribuir tanto como sea posible en el
+                campo de las telecomunicaciones en general y robótica en particular.
                 </p>
 
                 <div class="row stats-row">
