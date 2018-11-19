@@ -558,7 +558,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2 class="section-title">Contact Us</h2>
+                        <h2 class="section-title">Contacta con Nosotros</h2>
                     </div>
                 </div>
 
@@ -567,7 +567,7 @@
                         <div class="info">
                             <div>
                                 <i class="fa fa-map-marker"></i>
-                                <p>A108 Adam Street<br>New York, NY 535022</p>
+                                <p>Camino del Molino, s/n, 28942 Fuenlabrada<br>(Madrid)</p>
                             </div>
 
                             <div>
@@ -601,7 +601,7 @@
                                     <div class="validation"></div>
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
                                     <div class="validation"></div>
                                 </div>
                                 <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
