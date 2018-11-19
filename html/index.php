@@ -62,7 +62,7 @@
       <br><br><br>
       <div class="col-md-12">
         <h1 class="">
-            Asociacion de estudiantes de la URJC.
+            Asociacion de estudiantes de la URJC
         </h1>
 
         <!-- <p class="tagline">
