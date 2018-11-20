@@ -94,17 +94,6 @@
             </video/>
 
         </div>
-
-        <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
-            <h2>
-                Welcome to a perfect theme
-            </h2>
-
-            <p>
-                This is the most powerful theme with thousands of options that you have never seen before.
-            </p>
-            <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="img/gadgets.png">
-        </div>
         <!-- /Parallax -->
 
         <!-- Features -->
