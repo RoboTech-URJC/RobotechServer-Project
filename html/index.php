@@ -83,45 +83,16 @@
                 campo de las telecomunicaciones en general y robótica en particular.
                 </p>
 
-                <div class="row stats-row">
-                    <div class="stats-col text-center col-md-3 col-sm-6">
-                        <div class="circle">
-                            <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
-                        </div>
-                    </div>
-
-                    <div class="stats-col text-center col-md-3 col-sm-6">
-                        <div class="circle">
-                            <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
-                        </div>
-                    </div>
-
-                    <div class="stats-col text-center col-md-3 col-sm-6">
-                        <div class="circle">
-                            <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
-                        </div>
-                    </div>
-
-                    <div class="stats-col text-center col-md-3 col-sm-6">
-                        <div class="circle">
-                            <span class="stats-no" data-toggle="counter-up">15</span> Hard Workers
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <!-- /About -->
         <!-- Parallax -->
 
-        <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
-            <h2>
-                Welcome to a perfect theme
-            </h2>
+        <div class="”video-responsive”">
+            <video width="1840" height="490" autoplay loop="loop" muted>
+                <source src="videos/video_presentation.mp4" type="video/mp4"/>
+            </video/>
 
-            <p>
-                This is the most powerful theme with thousands of options that you have never seen before.
-            </p>
-            <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="img/gadgets.png">
         </div>
         <!-- /Parallax -->
 
