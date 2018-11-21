@@ -88,7 +88,7 @@
         <!-- /About -->
         <!-- Parallax -->
 
-        <div class="”video-responsive”">
+        <div style="text-align: center;" id="video-presentation">
             <video width="100%" height="auto" autoplay loop="loop" muted>
                 <source src="videos/video_presentation.mp4" type="video/mp4"/>
             </video/>
