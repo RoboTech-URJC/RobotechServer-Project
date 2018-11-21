@@ -30,18 +30,18 @@
                         <button class="signup-btn"><i class="fa fa-user"> </i>&nbsp;Registrarse</button>
                         <button class="login-btn"><i class="fa fa-lock"> </i>&nbsp;Login</button>
                     </div>
-                    <form class="register-form" name="registerform" method="post" action="php/register.php">
-                        <input class="form-control" type="text" id = "name" placeholder="Nombre" required="required"/>
-                        <input class="form-control" type="text" id = "surname" placeholder="Apellidos" required="required"/>
-                        <input class="form-control" type="text" id = "DNI" placeholder="DNI" required="required" onchange="return nif_validation()"/>
-                        <input class="form-control" type="text" id = "URJC" placeholder="URJC Mail" required="required" onchange="return mail_validation()"/>
-                        <select class="login-option" id="degree" name="Grado">
+                    <form class="register-form" name="registerform" action="php/register.php" method="POST" >
+                        <input class="form-control" type="text" name = "name" id = "name" value = "Nombre" required="required"/>
+                        <input class="form-control" type="text" name = "surname" id = "surname" value="Apellidos" required="required"/>
+                        <input class="form-control" type="text" name = "DNI" id = "DNI" value="DNI" required="required" onchange="return nif_validation()"/>
+                        <input class="form-control" type="text" name = "URJC" id = "URJC" value="URJC Mail" required="required" onchange="return mail_validation()"/>
+                        <select class="login-option" id="degree" name="degree">
                             <option value="ISAM" selected="selected">ISAM</option>
                             <option value="Tecnologias de la Telecomunicacion">Tecnologias de la Telecomunicacion</option>
                             <option value="Telematica">Telematica</option>
                         </select>
-                        <input class="form-control" type="password" id = "pass" placeholder="Password" required="required" onchange="return pwd_validation()"/>
-                        <input class="form-control" type="password" id = "pass_confirm" placeholder="Confirmar password" required="required" onchange="return pwd_confirmation()"/>
+                        <input class="form-control" type="password" name = "password" id = "pass" value="Password" required="required" onchange="return pwd_validation()"/>
+                        <input class="form-control" type="password" id = "pass_confirm" value="Confirmar password" required="required" onchange="return pwd_confirmation()"/>
                         <button class="btn-submit" type="submit">Registrarme</button>
                     </form>
                     <form class="secure-login" name="loginform" method="post" action="login.php">
