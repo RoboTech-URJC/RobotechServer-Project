@@ -44,13 +44,13 @@
                         <input class="form-control" type="password" id = "pass_confirm" value="Confirmar password" required="required" onchange="return pwd_confirmation()"/>
                         <button class="btn-submit" type="submit">Registrarme</button>
                     </form>
-                    <form class="secure-login" name="loginform" method="post" action="login.php">
-                        <select class="login-option">
-                            <option>Socio</option>
-                            <option>Junta Administrativa</option>
+                    <form class="secure-login" name="loginform" method="POST" action="php/log.php">
+                        <select class="login-option" name = "role">
+                            <option value="Member">Socio</option>
+                            <option value="Chief">Junta Administrativa</option>
                         </select>
-                        <input class="form-control" type="email" placeholder="Email" required="required"/>
-                        <input class="form-control" type="password" placeholder="Password" required="required"/>
+                        <input class="form-control" type="email" name ="mail" value="Email" required="required"/>
+                        <input class="form-control" type="password" mame ="password" value="Password" required="required"/>
                         <button class="btn-submit" type="submit">Login</button>
                     </form>
                 </div>
