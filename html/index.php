@@ -92,6 +92,11 @@
             <video width="100%" height="auto" autoplay loop="loop" muted>
                 <source src="videos/video_presentation.mp4" type="video/mp4"/>
             </video/>
+            <div class="video-text">
+                <div class = "text-font">
+                    Para aprobar con Marqués, Únete a Robotech!
+                </div>
+            </div>
 
         </div>
         <!-- /Parallax -->

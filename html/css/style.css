@@ -1147,6 +1147,27 @@ body.mobile-nav-active #mobile-nav-toggle {
       position: relative;
       padding-bottom: 32.25%; /* 16/9 ratio */
       padding-top: 30px; /* IE6 workaround*/
-      height: 0;
+      height: 200px;
       overflow: hidden;
+  }
+  #video-presentation .video-text{
+    position: absolute;
+    background-color: #BDBDBD;
+    top: 25%;
+    left: 13%;
+    opacity:0.7;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(200,200,200);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    width: 75%;
+
+  }
+  .video-text .text-font{
+    color: #B404AE;
+    font-size: 45px;
+    font-family: "bauhaus";
+    font-weight: bold;
   }
