@@ -810,7 +810,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   float: center;
   padding: 10px 0;
   width: 100%;
-  height: 780px;
+  height: auto;
 }
 
 #contact h2 {
@@ -820,22 +820,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 40px;
 }
 #contact .info{
-  float: left;
+  /*float: left;*/
 }
 
 #contact .info i{
   font-size: 32px;
   text-align: center;
   color: #199EB8;
-  float: left;
-  width: 200px;
+  /*float: left;*/
+  width: 100%;
 }
 
 #contact .info p {
   padding: 0 0 5px 5px;
   line-height: 25px;
-  width: 700px;
-  float: left;
+  width: 100%;
+  text-align: center;
+  /*float: left;*/
 }
 #contact .form{
   color: #199EB8;
@@ -843,8 +844,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 0.4;
   border: 1px solid #199EB8;
   float: right;
-  width: 900px;
-  height: : 800px;
+  width: 100%;
+  height: : auto;
   text-align: center;
   padding: 15px;
   margin-bottom: 15px;
@@ -852,16 +853,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .info .contact-map{
-  float: left;
-  width: 700px;
-  height: 450px;
-  margin-left: 70px;
+  /*float: left;*/
+  /*height: 450px;*/
+  /*margin-left: 70px;*/
   margin-bottom: 5px;
 }
-.contact-map iframe{
+/*.contact-map iframe{
   width: 100%;
   height: 100%;
-}
+}*/
 
 #contact .form #sendmessage {
   color: #199EB8;
@@ -921,8 +921,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #f7f7f7;
     float: center;
     padding: 10px 0;
-    width: 330px;
-    height: 970px;
+    width: 100%;
+    height: auto;
 }
   #contact h2 {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -932,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #contact .info{
     float: left;
-    height: 500px;
+    height: auto;
   }
   .info .contact-map{
     float: left;
@@ -948,8 +948,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #199EB8;
     border: 1px solid #199EB8;
     float: left;
-    width: 330px;
-    height: : 400px;
+    width: 100%;
+    height: : auto;
     text-align: center;
     padding: 15px;
     margin-bottom: 15px;
@@ -1239,45 +1239,42 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #video-presentation .video-text{
     position: absolute;
-    background-color: #BDBDBD;
-    top: 25%;
-    left: 13%;
+    background-color: #424242;
+    top: 5%;
     opacity:0.7;
-    border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(200,200,200);
     margin: 0;
     padding: 0;
     text-align: center;
-    text-shadow: 2px 2px 4px rgb(255, 255, 255);
-    width: 75%;
-
+    text-shadow: 2px 2px 4px rgb(129,123,122);
+    width: 100%;
+    height: 100%;
   }
   .video-text .text-font{
-    color: #B404AE;
+    color: #000;
     font-size: 45px;
-    font-family: "bauhaus";
+    /*font-family: "bauhaus";*/
     font-weight: bold;
   }
   @media (max-width: 768px){
     #video-presentation .video-text{
       position: absolute;
-      background-color: #BDBDBD;
-      top: 25%;
-      left: 10%;
+      background-color: #424242;
+      top: 5%;
       opacity:0.7;
-      border-radius: 10px;
       box-shadow: 5px 5px 10px rgb(200,200,200);
       margin: 0;
       padding: 0;
       text-align: center;
-      text-shadow: 2px 2px 4px rgb(255, 255, 255);
-      width: 85%;
+      text-shadow: 2px 2px 4px rgb(67, 60, 58);
+      width: 100%;
+      height: 100%;
 
     }
     .video-text .text-font{
-      color: #B404AE;
+      color: #000;
       font-size: 15px;
-      font-family: "bauhaus";
+      /*font-family: "bauhaus";*/
       font-weight: bold;
     }
   }
