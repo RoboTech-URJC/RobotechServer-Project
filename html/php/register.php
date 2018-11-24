@@ -22,25 +22,53 @@
           die("Connection failed: " . mysqli_connect_error());
     }
 
-    $sql = "INSERT INTO members (NAME,SURNAME,DNI,URJC_MAIL,GRADO,PASSWORD,ACTIVATE) VALUES ('$name','$surname','$DNI','$mail','$degree','$pwd','0')";
+    $key = generateRandomString();
+
+    $sql = "INSERT INTO members (NAME,SURNAME,DNI,URJC_MAIL,GRADO,PASSWORD,ACTIVATE,RANDN_KEY) VALUES ('$name','$surname','$DNI','$mail','$degree','$pwd','0','$key')";
 
     if (mysqli_query($conn, $sql)) {
           echo "New record created successfully";
-          val_mail($mail);
+          val_mail($mail,$key);
+          header ("Location:../index.php");
     } else {
           echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
     mysqli_close($conn);
 
 
-    function val_mail($to){
+    function val_mail($to,$key){
+
+        $body = '<html>
+
+                     </head>
+
+                        <title>Validacion de cuenta</title>
+
+                     </head>
+
+                     <body>
+
+                     <p>Hola que tal, nos da gusto que nos elijas para trabajar en nuestra empresa. Sin duda esperamos mucho de ti.</p>
+
+                     <br>
+
+                     <p>Ya casi acompletas tu registro, solo falta validar tu cuenta. Para ello solo sigue el siguiente enlace.</p>
+
+                     <br>
+
+                     <p>Copia el siguiente enlace en tu navegador : localhost/html/php/validation.php?key='.$key.'</p>
+
+                     <br>
+
+                     </body>
+
+                 </html>';
 
         $email_user = "robotechpruebas@gmail.com";
-        // $email_password = "contrasena";  Aqui meter la contrasenna del email que sera el que envie
+        $email_password = "jijijaja";  //Aqui meter la contrasenna del email que sera el que envie
         $the_subject = "Email de validacion";
         $from_name = "Validacion de cuentas Robotech";
         $phpmailer = new PHPMailer();
-
 
         $phpmailer->Username = $email_user;
         $phpmailer->Password = $email_password;
@@ -55,10 +83,20 @@
         $phpmailer->AddAddress($to);
 
         $phpmailer->Subject = $the_subject;
-        $phpmailer->Body ="Este es un mensaje para validar su cuenta en Robotech, porfavor pinche en el siguiente enlace:";
+        $phpmailer->Body = $body;
         $phpmailer->IsHTML(true);
 
         $phpmailer->Send();
+    }
+
+    function generateRandomString($length = 20) {
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
     }
 
 ?>

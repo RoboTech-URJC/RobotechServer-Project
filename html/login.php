@@ -40,17 +40,17 @@
                             <option value="Tecnologias de la Telecomunicacion">Tecnologias de la Telecomunicacion</option>
                             <option value="Telematica">Telematica</option>
                         </select>
-                        <input class="form-control" type="password" name = "password" id = "pass" value="Password" required="required" onchange="return pwd_validation()"/>
-                        <input class="form-control" type="password" id = "pass_confirm" value="Confirmar password" required="required" onchange="return pwd_confirmation()"/>
+                        <input class="form-control" type="password" name = "password" id = "pass" value="" required="required" onchange="return pwd_validation()"/>
+                        <input class="form-control" type="password" id = "pass_confirm" value="" required="required" onchange="return pwd_confirmation()"/>
                         <button class="btn-submit" type="submit">Registrarme</button>
                     </form>
-                    <form class="secure-login" name="loginform" method="POST" action="php/log.php">
+                    <form class="secure-login" name="loginform" action="php/log.php"  method="POST">
                         <select class="login-option" name = "role">
                             <option value="Member">Socio</option>
                             <option value="Chief">Junta Administrativa</option>
                         </select>
                         <input class="form-control" type="email" name ="mail" value="Email" required="required"/>
-                        <input class="form-control" type="password" mame ="password" value="Password" required="required"/>
+                        <input class="form-control" type="password" name = "password" id = "pass" value=""/>
                         <button class="btn-submit" type="submit">Login</button>
                     </form>
                 </div>
