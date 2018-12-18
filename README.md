@@ -20,7 +20,7 @@ Steps to mount a webserver on your laptot in order to make test
 
 * ``sudo apt-get install mysql-server``
 * ``mysql -u root``
-* ``mysql -u root -p`` (sin no introdujiste el password durante la instalación)
+* ``mysql -u root -p`` (si no introdujiste el password durante la instalación)
 
 **+++ Install php +++**
 
