@@ -24,7 +24,7 @@
         if ($active == 1){
             echo "Usuario correcto";
             setcookie("misitio_userid","$id_usuario",time()+3600);
-            header ("Location:../index.php");
+            header ("Location:../members.php");
         }else
             echo "Cuenta no validada";
     }
