@@ -1278,3 +1278,14 @@ body.mobile-nav-active #mobile-nav-toggle {
       font-weight: bold;
     }
   }
+
+  .undercons {
+    display: table;
+    position: relative;
+    background-image: url(../img/under_build.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    /*color: #fff;*/
+    width: 100%;
+    height: 100vh;
+  }
