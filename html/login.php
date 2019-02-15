@@ -31,17 +31,22 @@
                         <button class="login-btn"><i class="fa fa-lock"> </i>&nbsp;Login</button>
                     </div>
                     <form class="register-form" name="registerform" action="php/register.php" method="POST" >
-                        <input class="form-control" type="text" name = "name" id = "name" value = "Nombre" required="required"/>
-                        <input class="form-control" type="text" name = "surname" id = "surname" value="Apellidos" required="required"/>
-                        <input class="form-control" type="text" name = "DNI" id = "DNI" value="DNI" required="required" onchange="return nif_validation()"/>
-                        <input class="form-control" type="text" name = "URJC" id = "URJC" value="URJC Mail" required="required" onchange="return mail_validation()"/>
+                        <input class="form-control" type="text" name = "name" id = "name" placeholder="Nombre"required="required"/>
+                        <input class="form-control" type="text" name = "surname" id = "surname" placeholder="Apellidos" required="required"/>
+                        <input class="form-control" type="text" name = "DNI" id = "DNI" placeholder="DNI" required="required" onchange="return nif_validation()"/>
+                        <input class="form-control" type="text" name = "URJC" id = "URJC" placeholder="URJC Mail" required="required" onchange="return mail_validation()"/>
                         <select class="login-option" id="degree" name="degree">
                             <option value="ISAM" selected="selected">ISAM</option>
                             <option value="Tecnologias de la Telecomunicacion">Tecnologias de la Telecomunicacion</option>
                             <option value="Telematica">Telematica</option>
                         </select>
-                        <input class="form-control" type="password" name = "password" id = "pass" value="" required="required" onchange="return pwd_validation()"/>
-                        <input class="form-control" type="password" id = "pass_confirm" value="" required="required" onchange="return pwd_confirmation()"/>
+                        <input class="form-control" type="password" name = "password" id = "pass" placeholder="Contrasena" required="required" onchange="return pwd_validation()"/>
+                        <input class="form-control" type="password" id = "pass_confirm" placeholder="Repetir contrasena" required="required" onchange="return pwd_confirmation()"/>
+                        <label class="btn">
+                            Subir DNI
+                            <input style = "display: none" enctype="multipart/form-data" type="file" name="adjunto" accept=".pdf,.jpg,.png" required="required" />
+                        </label>
+                        <br><br>
                         <button class="btn-submit" type="submit">Registrarme</button>
                     </form>
                     <form class="secure-login" name="loginform" action="php/log.php"  method="POST">
@@ -49,8 +54,8 @@
                             <option value="Member">Socio</option>
                             <option value="Chief">Junta Administrativa</option>
                         </select>
-                        <input class="form-control" type="email" name ="mail" value="Email" required="required"/>
-                        <input class="form-control" type="password" name = "password" id = "pass" value=""/>
+                        <input class="form-control" type="email" name ="mail" placeholder="Email" required="required"/>
+                        <input class="form-control" type="password" name = "password" id = "pass" placeholder="Contrasena"/>
                         <button class="btn-submit" type="submit">Login</button>
                     </form>
                 </div>
