@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Miembros</title>
+        <link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script  src="js/login.js"></script>
