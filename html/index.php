@@ -90,11 +90,11 @@
 
         <div style="text-align: center;" id="video-presentation">
             <video width="100%" height="auto" autoplay loop="loop" muted>
-                <source src="videos/video_presentation.mp4" type="video/mp4"/>
+                <source src="videos/clip1_insoladora.mp4" type="video/mp4"/>
             </video/>
             <div class="video-text">
                 <div class = "text-font" style="margin-top:15%;margin-right:20%">
-                    Para aprobar con Marqués, Únete a Robotech!
+                    Stay creative!
                 </div>
             </div>
 
@@ -273,11 +273,11 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-1.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.png">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
-                                            The Dude Rockin'
+                                            Nuestro equipo de laboratorio
                                         </h3>
 
                                         <p class="card-text">
