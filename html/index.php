@@ -273,7 +273,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/Laboratorio.png">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -291,7 +291,7 @@
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-2.jpg">
+                            <a href="#"><img alt="" src="img/provisional.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -309,7 +309,7 @@
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-3.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -327,7 +327,7 @@
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-4.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -347,7 +347,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-5.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -365,7 +365,7 @@
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-6.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -383,7 +383,7 @@
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-7.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
@@ -401,7 +401,7 @@
 
                     <div class="col-lg-3 col-sm-6 col-xs-12">
                         <div class="card card-block">
-                            <a href="#"><img alt="" src="img/porf-8.jpg">
+                            <a href="#"><img alt="" src="img/Laboratorio.jpg">
                                 <div class="portfolio-over">
                                     <div>
                                         <h3 class="card-title">
