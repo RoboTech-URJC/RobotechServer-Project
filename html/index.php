@@ -106,7 +106,7 @@
         <section class="features" id="features">
             <div class="container">
                 <h2 class="text-center">
-                    Features
+                    Lo que te ofrece <span style="color:red">Robotech</span>
                 </h2>
 
                 <div class="row">
