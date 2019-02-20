@@ -241,16 +241,16 @@
                 <div class="row">
                     <div class="col-lg-9 col-sm-12 text-lg-left text-center">
                         <h2>
-                            Call to Action Section
+                            Unete a Robotech!
                         </h2>
 
                         <p>
-                            Lorem ipsum dolor sit amet, nec ad nisl mandamus imperdiet, ut corpora cotidieque cum. Et brute iracundia his, est eu idque dictas gubergren
+                            Si tienes una idea o te interesa participar en alguno de los proyectos activos inscribete, solo te llevara unos momentos !
                         </p>
                     </div>
 
                     <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-                        <a class="btn btn-ghost" href="#">Buy This Theme</a>
+                        <a class="btn btn-ghost" href="/html/login.php">Registro</a>
                     </div>
                 </div>
             </div>
@@ -261,7 +261,7 @@
         <section class="portfolio" id="portfolio">
             <div class="container text-center">
                 <h2>
-                    Portfolio
+                    Nuestras instalaciones
                 </h2>
 
                 <p>
