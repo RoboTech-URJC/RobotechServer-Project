@@ -44,6 +44,11 @@
                         <input class="form-control" type="password" name = "password" id = "pass" placeholder="Contrasena" required="required" onchange="return pwd_validation()"/>
                         <input class="form-control" type="password" id = "pass_confirm" placeholder="Repetir contrasena" required="required" onchange="return pwd_confirmation()"/>
                         <label class="btn">
+                            Subir Aula Virtual
+                            <input style = "display: none" enctype="multipart/form-data" type="file" name="adjunto" accept=".pdf,.jpg,.png" required="required" />
+                        </label>
+                        <br>
+                        <label class="btn">
                             Subir DNI
                             <input style = "display: none" enctype="multipart/form-data" type="file" name="adjunto" accept=".pdf,.jpg,.png" required="required" />
                         </label>
