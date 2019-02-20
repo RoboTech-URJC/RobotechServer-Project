@@ -425,13 +425,13 @@
         <section class="team" id="team">
             <div class="container">
                 <h2 class="text-center">
-                    Nuestro Equipo
+                    Nuestros ultimos proyectos
                 </h2>
 
                 <div class="row">
                     <div class="col-sm-3 col-xs-6">
                         <div class="card card-block">
-                            <a href="#"><img alt="" class="team-img" src="img/team-1.jpg">
+                            <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
                                     <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
                                 </div>
@@ -455,7 +455,7 @@
 
                     <div class="col-sm-3 col-xs-6">
                         <div class="card card-block">
-                            <a href="#"><img alt="" class="team-img" src="img/team-2.jpg">
+                            <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
                                     <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
                                 </div>
@@ -479,7 +479,7 @@
 
                     <div class="col-sm-3 col-xs-6">
                         <div class="card card-block">
-                            <a href="#"><img alt="" class="team-img" src="img/team-3.jpg">
+                            <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
                                     <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
                                 </div>
@@ -503,7 +503,7 @@
 
                     <div class="col-sm-3 col-xs-6">
                         <div class="card card-block">
-                            <a href="#"><img alt="" class="team-img" src="img/team-4.jpg">
+                            <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
                                     <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
                                 </div>
