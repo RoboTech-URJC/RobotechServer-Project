@@ -119,12 +119,12 @@
                             </div>
 
                             <div>
-                                <h3>
-                                    Custom Design
+                                <h3 style="color:red">
+                                    Desarrollar tus ideas
                                 </h3>
 
                                 <p>
-                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                    ¿Tienes una idea? En Robotech te ayudamos a llevarla a cabo
                                 </p>
                             </div>
                         </div>
@@ -134,17 +134,16 @@
                         <div class="card card-block text-center">
                             <div>
                                 <div class="feature-icon">
-                                    <span class="fa fa-envelope"></span>
+                                    <span class="fa fa-code-fork"></span>
                                 </div>
                             </div>
 
                             <div>
-                                <h3>
-                                    Responsive Layout
+                                <h3 style="color:red">
+                                    Participar en proyectos reales
                                 </h3>
-
                                 <p>
-                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                    Tenemos diferentes proyectos abiertos en los que podras participar.
                                 </p>
                             </div>
                         </div>
@@ -159,73 +158,53 @@
                             </div>
 
                             <div>
-                                <h3>
-                                Innovative Ideas
+                                <h3 style="color:red">
+                                    Vida universitaria
                                 </h3>
-                            <p>
-                                Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                            </p>
+                                <p>
+                                    Pertenecer a una asociación es una buena manera de enterarte y participar en los distintos eventos,charlas y seminarios que organiza la universidad.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="feature-col col-lg-4 col-xs-12">
+                    <div class="feature-col col-lg-6 col-xs-12">
                         <div class="card card-block text-center">
                             <div>
                                 <div class="feature-icon">
-                                    <span class="fa fa-database"></span>
+                                    <span class="fa fa-id-card-o"></span>
                                 </div>
                             </div>
 
                             <div>
-                                <h3>
-                                    Good Documentation
+                                <h3 style="color:red">
+                                    Mejorar tu curriculum
                                 </h3>
 
                                 <p>
-                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                    El hecho de pertenecer a alguna asoacion estudiantil es algo que se valora por parte de las empresas ya que demuestra interes.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="feature-col col-lg-4 col-xs-12">
+                    <div class="feature-col col-lg-6 col-xs-12">
                         <div class="card card-block text-center">
                             <div>
                                 <div class="feature-icon">
-                                    <span class="fa fa-cutlery"></span>
+                                    <span class="fa fa-mortar-board"></span>
                                 </div>
                             </div>
 
                             <div>
-                                <h3>
-                                    Excellent Features
+                                <h3 style="color:red">
+                                    Desarrollar lo aprendido
                                 </h3>
 
                                 <p>
-                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="feature-col col-lg-4 col-xs-12">
-                        <div class="card card-block text-center">
-                            <div>
-                                <div class="feature-icon">
-                                    <span class="fa fa-dashboard"></span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <h3>
-                                    Retina Ready
-                                </h3>
-
-                                <p>
-                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                    Pon en practica los conocimientos que has ido adquiriendo en un entorno de bajo riesgo.
                                 </p>
                             </div>
                         </div>
