@@ -31,7 +31,7 @@
                         <button class="signup-btn"><i class="fa fa-user"> </i>&nbsp;Registrarse</button>
                         <button class="login-btn"><i class="fa fa-lock"> </i>&nbsp;Login</button>
                     </div>
-                    <form class="register-form" name="registerform" action="php/register.php" method="POST" >
+                    <form class="register-form" name="registerform" action="php/register.php" method="POST" enctype="multipart/form-data" >
                         <input class="form-control" type="text" name = "name" id = "name" placeholder="Nombre"required="required"/>
                         <input class="form-control" type="text" name = "surname" id = "surname" placeholder="Apellidos" required="required"/>
                         <input class="form-control" type="text" name = "DNI" id = "DNI" placeholder="DNI" required="required" onchange="return nif_validation()"/>
@@ -43,14 +43,14 @@
                         </select>
                         <input class="form-control" type="password" name = "password" id = "pass" placeholder="Contrasena" required="required" onchange="return pwd_validation()"/>
                         <input class="form-control" type="password" id = "pass_confirm" placeholder="Repetir contrasena" required="required" onchange="return pwd_confirmation()"/>
-                        <label class="btn">
+                        <!-- <label class="btn">
                             Subir Aula Virtual
                             <input style = "display: none" enctype="multipart/form-data" type="file" name="adjunto" accept=".pdf,.jpg,.png" required="required" />
                         </label>
-                        <br>
+                        <br> -->
                         <label class="btn">
                             Subir DNI
-                            <input style = "display: none" enctype="multipart/form-data" type="file" name="adjunto" accept=".pdf,.jpg,.png" required="required" />
+                            <input style = "display: none" type="file" name="adj" id="adj" accept=".pdf,.jpg,.png" required="required" />
                         </label>
                         <br><br>
                         <button class="btn-submit" type="submit">Registrarme</button>
