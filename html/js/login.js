@@ -46,25 +46,25 @@ function nif_validation(){
     }
 }
 
-// function pwd_validation(){
-//     var password = getElementById("pass");
-//     if(password.value.length < 8){
-//         password.value = "";
-//         alert("El password debe contener al menos 8 caracteres");
-//         return false;
-//     }else{
-//         return true;
-//     }
-// }
-//
-// function pwd_confirmation(){
-//     var password = getElementById("pass");
-//     var password_confirm = getElementById("pass_confirm");
-//     if (password.value == password_confirm.value){
-//         return true;
-//     }else{
-//         alert("Las password no coinciden");
-//         password_confirm.value = "";
-//         return false;
-//     }
-// }
+function pwd_validation(){
+    var password = document.getElementById("password");
+    if(password.value.length < 8){
+        password.value = "";
+        alert("El password debe contener al menos 8 caracteres");
+        return false;
+    }else{
+        return true;
+    }
+}
+
+function pwd_confirmation(){
+    var password = document.getElementById("password");
+    var password_confirm = document.getElementById("pass_confirm");
+    if (password.value == password_confirm.value){
+        return true;
+    }else{
+        alert("Las password no coinciden");
+        password_confirm.value = "";
+        return false;
+    }
+}

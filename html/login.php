@@ -41,8 +41,8 @@
                             <option value="Tecnologias de la Telecomunicacion">Tecnologias de la Telecomunicacion</option>
                             <option value="Telematica">Telematica</option>
                         </select>
-                        <input class="form-control" type="password" name = "password" id = "pass" placeholder="Contrasena" required="required" onchange="return pwd_validation()"/>
-                        <input class="form-control" type="password" id = "pass_confirm" placeholder="Repetir contrasena" required="required" onchange="return pwd_confirmation()"/>
+                        <input class="form-control" type="password" name = "password" id = "password" placeholder="Contrasena" required="required" onchange="return pwd_validation()"/>
+                        <input class="form-control" type="password" name = "pass_confirm" id = "pass_confirm" placeholder="Repetir contrasena" required="required" onchange="return pwd_confirmation()"/>
                         <!-- <label class="btn">
                             Subir Aula Virtual
                             <input style = "display: none" enctype="multipart/form-data" type="file" name="adjunto" accept=".pdf,.jpg,.png" required="required" />
