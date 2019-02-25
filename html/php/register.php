@@ -17,24 +17,31 @@
     $password = "asddsa";
     // Create connection
     $conn = mysqli_connect($servername, $username, $password, $database);
-    // Check connection
+    Check connection
     if (!$conn) {
           die("Connection failed: " . mysqli_connect_error());
     }
 
     $key = generateRandomString();
 
+    $dir_subida = '../uploads/';
+    $fichero_subido = $dir_subida . basename($_FILES['adj']['name']);
+    if (move_uploaded_file($_FILES['adj']['tmp_name'], $fichero_subido)) {
+        echo "El fichero es válido y se subió con éxito.\n";
+    } else {
+        echo "¡Posible ataque de subida de ficheros!\n";
+    }
+
     $sql = "INSERT INTO members (NAME,SURNAME,DNI,URJC_MAIL,GRADO,PASSWORD,ACTIVATE,RANDN_KEY) VALUES ('$name','$surname','$DNI','$mail','$degree','$pwd','0','$key')";
 
     if (mysqli_query($conn, $sql)) {
-          echo "New record created successfully";
-          val_mail($mail,$key);
-          header ("Location:../index.php");
+        echo "New record created successfully";
+        val_mail($mail,$key);
+        header ("Location:../index.php");
     } else {
           echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
     mysqli_close($conn);
-
 
     function val_mail($to,$key){
 
