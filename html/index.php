@@ -229,7 +229,7 @@
                     </div>
 
                     <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-                        <a class="btn btn-ghost" href="/html/login.php">Registro</a>
+                        <a class="btn btn-ghost" href="./login.php">Registro</a>
                     </div>
                 </div>
             </div>
