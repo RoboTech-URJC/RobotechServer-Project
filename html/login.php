@@ -50,7 +50,7 @@
                         <br>
                         <label class="btn">
                             Subir DNI
-                            <input style = "display: none" type="file" name="DNI" id="DNI" accept=".pdf,.jpg,.png" required="required" />
+                            <input style = "display: none" type="file" name="ID" id="ID" accept=".pdf,.jpg,.png" required="required" />
                         </label>
                         <br><br>
                         <button class="btn-submit" type="submit">Registrarme</button>
