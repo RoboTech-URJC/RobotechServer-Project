@@ -1,9 +1,9 @@
 <?php
 
-    $link = bbdd_connection("localhost","root","asddsa","members");
-
-
-    $table = "members";
+    // $link = bbdd_connection("localhost","root","asddsa","members");
+    //
+    //
+    // $table = "members";
     // $field_values = array('NAME','PASSWORD');
     // $input_values = array("'ENANO'","'PUTO'");
     //
@@ -38,7 +38,7 @@
     function get_bbdd_field($link,$table,$field_input,$value_input,$field_output){
 
         $sql = "SELECT " .$field_output." FROM " .$table." WHERE ".$field_input. "= '".$value_input."'";
-        $rs =mysqli_query($link,$sql);
+        $rs = mysqli_query($link,$sql);
 
         if (mysqli_num_rows($rs)!=0){
             $query = mysqli_fetch_row($rs);
