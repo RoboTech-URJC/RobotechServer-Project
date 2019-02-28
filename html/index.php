@@ -239,7 +239,7 @@
 
         <section class="portfolio" id="portfolio">
             <div class="container text-center">
-                <h2>
+                <h2 style="color:red" class="shadow">
                     Nuestras instalaciones
                 </h2>
 
@@ -403,30 +403,22 @@
 
         <section class="team" id="team">
             <div class="container">
-                <h2 class="text-center">
+                <h2 style="color:red" class="shadow text-center">
                     Nuestros ultimos proyectos
                 </h2>
 
                 <div class="row">
                     <div class="col-sm-3 col-xs-6">
                         <div class="card card-block">
-                            <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
+                            <a href="#"><img alt="" class="team-img" src="img/Rover.jpg">
                                 <div class="card-title-wrap">
-                                    <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                                    <span class="card-title">Proyecto Delorean</span> <span  class="card-text">Saber más</span>
                                 </div>
 
                                 <div class="team-over">
                                     <h4 class="hidden-md-down">
-                                        Contacta conmigo
+                                        Drone terrestre completamente autonomo
                                     </h4>
-
-                                    <nav class="social-nav">
-                                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                                    </nav>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                                    </p>
                                 </div>
                             </a>
                         </div>
@@ -510,21 +502,21 @@
         <!-- @component: footer -->
 
         <section id="contact" >
-            <h2 text-align="center">Contacta con Nosotros</h2>
+            <h2 style="color:red" text-align="shadow center">Contacta con Nosotros</h2>
             <div class="info row" style="max-width:90%;margin-left:5%">
 
                 <div class="col-md-4">
-                    <i class="fa fa-envelope"></i>
+                    <i style="color:#FF8000" class="fa fa-envelope"></i>
                     <p>info@example.com</p>
                 </div>
 
                 <div class="col-md-4">
-                    <i class="fa fa-phone"></i>
+                    <i style="color:#FF8000" class="fa fa-phone"></i>
                     <p>+1 5589 55488 55s</p>
                 </div>
 
                 <div class="col-md-4">
-                    <i class="fa fa-map-marker"></i>
+                    <i style="color:#FF8000" class="fa fa-map-marker"></i>
                     <p>Camino del Molino, s/n, 28942 Fuenlabrada <br>(Madrid)</p>
                 </div>
                 <div class="col-md-12">
