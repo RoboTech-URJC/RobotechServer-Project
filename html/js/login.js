@@ -46,9 +46,18 @@ function nif_validation(){
     }
 }
 
+function getnum(target){
+    var text = target.replace(/\D/g,'');
+    if (text != ""){
+        return isNaN(text);
+    }else{
+        return true;
+    }
+}
+
 function pwd_validation(){
     var password = document.getElementById("password");
-    if(password.value.length < 8){
+    if(password.value.length < 8 || getnum(password.value)){
         password.value = "";
         alert("El password debe contener al menos 8 caracteres");
         return false;
