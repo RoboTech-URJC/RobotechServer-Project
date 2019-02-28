@@ -61,7 +61,7 @@
                 </div>
                 <br><br><br>
                 <div class="col-md-12">
-                    <h1 class="">
+                    <h1 class="shadow">
                     Asociación de Tecnología de la <b><span style="color:red">URJC</span></b>
                     </h1>
                 </div>
@@ -106,7 +106,7 @@
         <section class="features" id="features">
             <div class="container">
                 <h2 class="text-center">
-                    Lo que te ofrece <span style="color:red">Robotech</span>
+                    Lo que te ofrece <span class="shadow" style="color:red">Robotech</span>
                 </h2>
 
                 <div class="row">
@@ -119,7 +119,7 @@
                             </div>
 
                             <div>
-                                <h3 style="color:red">
+                                <h3 class="shadow" style="color:red">
                                     Desarrollar tus ideas
                                 </h3>
 
@@ -139,7 +139,7 @@
                             </div>
 
                             <div>
-                                <h3 style="color:red">
+                                <h3 class="shadow" style="color:red">
                                     Participar en proyectos reales
                                 </h3>
                                 <p>
@@ -158,7 +158,7 @@
                             </div>
 
                             <div>
-                                <h3 style="color:red">
+                                <h3 class="shadow" style="color:red">
                                     Vida universitaria
                                 </h3>
                                 <p>
@@ -179,7 +179,7 @@
                             </div>
 
                             <div>
-                                <h3 style="color:red">
+                                <h3 class="shadow" style="color:red">
                                     Mejorar tu curriculum
                                 </h3>
 
@@ -199,7 +199,7 @@
                             </div>
 
                             <div>
-                                <h3 style="color:red">
+                                <h3 class="shadow" style="color:red">
                                     Desarrollar lo aprendido
                                 </h3>
 
