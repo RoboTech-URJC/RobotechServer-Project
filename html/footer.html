@@ -1,45 +1,74 @@
+
+<script type="text/javascript">
+function controlcookies() {
+    // si variable no existe se crea (al hacer clic en Aceptar)
+    localStorage.controlcookie = (localStorage.controlcookie || 0);
+
+    localStorage.controlcookie++; // incrementamos la cuenta de la cookie
+    cookie1.style.display='none'; // Esconde la política de cookies en futuras visitas
+}
+</script>
+
+<script type="text/javascript">
+    if (localStorage.controlcookie>0){
+        document.getElementById('cookie1').style.bottom = '-50px';
+    }
+</script>
+
+
 <footer class="site-footer">
-  <div class="bottom">
-    <div class="container">
-      <div class="row">
 
-        <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-          <p class="copyright-text">
-            © Robotech URJC
-          </p>
-          <div class="credits">
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-          <ul class="list-inline">
-            <li class="list-inline-item">
-              <a href="index.html">Home</a>
-            </li>
-
-            <li class="list-inline-item">
-              <a href="#about">About Us</a>
-            </li>
-
-            <li class="list-inline-item">
-              <a href="#features">Features</a>
-            </li>
-
-            <li class="list-inline-item">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-
-            <li class="list-inline-item">
-              <a href="#team">Team</a>
-            </li>
-
-            <li class="list-inline-item">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
+    <div style="background-color: #FF8000; opacity: 0.8" class="cookiesms text-center" id="cookie1">
+        <p>
+            <b>Esta web utiliza cookies, puedes ver nuestra <a href="cookies.pdf" target="_blank">la política de cookies, aquí</a></b>
+        </p>
+        <p>
+            <b>Si continuas navegando estás aceptándola </b>
+            <button onclick="controlcookies()">Aceptar</button>
+        </p>
     </div>
-  </div>
+
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+                    <p class="copyright-text">
+                        © Robotech URJC
+                    </p>
+                    <div class="credits">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#about">About Us</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#features">Features</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#team">Team</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </footer>

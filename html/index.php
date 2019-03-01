@@ -37,6 +37,7 @@
 
         <!-- Main Stylesheet File -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/cookies.css" rel="stylesheet">
 
     </head>
 
