@@ -1,0 +1,10 @@
+Abstract
+
+We're interested in designing a compact case for our webserver based on raspberry pi.
+Concretely we're going to attach a 7" screen to rpi in order to visualize which's happening in the server when we'll use it face to face.
+The designed case should satisfied at least the next points:
+  + It will have less than 20 cm of width and 12 cm of heigh, there isn't deep dimension constraint.
+  + Ethenet and USB ports should be placed in one lateral surface. HDMI port should be place in the orthogonal side.
+  + HDMI ports of screen controller should be placed under/above HDMI rpi port and on the surface of the case.
+  + There will be holes for everyports.
+  + There will be holes for two buttons of 11 mm of diameter and for two LED diodes of 5 mm
