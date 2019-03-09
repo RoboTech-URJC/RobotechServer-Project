@@ -23,13 +23,22 @@
         echo $activate;
         if ($active == 1){
             echo "Usuario correcto";
-            setcookie("misitio_userid","$id_usuario",time()+3600);
-            header ("Location:../members.php");
+            setcookie("sesionid",generateRandomString(),time()+3600);
+            header ("Location:../member/reports.html");
         }else
             echo "Cuenta no validada";
     }
     else
     	echo "Usuario o password incorrectos";
 
+    function generateRandomString($length = 20) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
 
  ?>
