@@ -50,7 +50,7 @@ git push origin new_issue
 ```
 where *new_issue* is the branch where you are working and you sould have created previously.
 
-But, you have already to do one thing yo upload to create the pull request. If go to your forked repsitory, you will see a message like this:
+But, you have already to do one thing to upload to create the pull request. If go to your forked repsitory, you will see a message like this:
 
 ![Imagen](https://github.com/RoboTech-URJC/RobotechServer-Project/blob/master/docs/developer_guide2.png)
 
