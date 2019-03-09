@@ -5,7 +5,7 @@ In this little tutorial it is explained how to create an issue and later, how to
 First of all, you have to know that all the pull requests go associated to an issue. That means you **must not** upload a pull request without his previous issue.
 To create an issue, you have to clink on ``new issue`` button of the official repository (not your fork).
 
- ![Imagen](https://github.com/RoboTech-URJC/RobotechServer-Project/docs/developer_guide.png)
+ ![Imagen](https://github.com/RoboTech-URJC/RobotechServer-Project/blob/master/docs/developer_guide.png)
 
 ## Pull Request:
 Once you have the official repository forked, you have to go to your fork and copy his url. Later, in a terminal of your PC, you type ``git clone [url]``, where "url" is the url copied.
@@ -52,7 +52,8 @@ where *new_issue* is the branch where you are working and you sould have created
 
 But, you have already to do one thing yo upload to create the pull request. If go to your forked repsitory, you will see a message like this:
 
-![Imagen](https://github.com/RoboTech-URJC/RobotechServer-Project/docs/developer_guide2.png)
+![Imagen](https://github.com/RoboTech-URJC/RobotechServer-Project/blob/master/docs/developer_guide2.png)
+
  You have yo click in the **Compare & pull request** button. Then you will be able to write a more detailed comment about your pull request if you believe that it is needed. Then you click on **Create pull requst** button.
 
  If you have followed all this steps, you will have created a pull request correctly.
