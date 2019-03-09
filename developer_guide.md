@@ -16,7 +16,7 @@ Now, if you type ``git branch`` you will see you are in *master* branch. In this
 ### ¿How to create a new branch?
 * ``git checkout -b new_branch``
 
-If you want to change the branch, you can type ``git checkout branch_name``, whre *branch_name* is the name of the branch.
+If you want to change the branch, you can type ``git checkout branch_name``, where *branch_name* is the name of the branch.
 
 If you type ``git branch`` again, you will see that you are now in the new branch yo have just created. That means that now you can perform as changes as you want.
 
