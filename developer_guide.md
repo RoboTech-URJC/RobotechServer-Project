@@ -54,6 +54,6 @@ But, you have already to do one thing yo upload to create the pull request. If g
 
 ![Imagen](https://github.com/RoboTech-URJC/RobotechServer-Project/blob/master/docs/developer_guide2.png)
 
- You have yo click in the **Compare & pull request** button. Then you will be able to write a more detailed comment about your pull request if you believe that it is needed. Then you click on **Create pull requst** button.
+ You have yo click in the **Compare & pull request** button. Then you will be able to write a more detailed comment about your pull request if you believe that it is needed. Then you click on **Create pull request** button.
 
  If you have followed all this steps, you will have created a pull request correctly.
