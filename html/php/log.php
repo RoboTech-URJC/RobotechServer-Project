@@ -23,8 +23,10 @@
         echo $activate;
         if ($active == 1){
             echo "Usuario correcto";
-            setcookie("sesionid",generateRandomString(),time()+3600);
-            header ("Location:../member/reports.html");
+            session_start();
+            $_SESSION['usuario'] = $mail;
+            $_SESSION['autenticado'] = 'connect_true';
+            header ("Location:../member/reports.php");
         }else
             echo "Cuenta no validada";
     }
