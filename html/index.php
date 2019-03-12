@@ -429,21 +429,13 @@
                         <div class="card card-block">
                             <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
-                                    <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                                    <span class="card-title">Proyecto Icarus</span> <span class="card-text">Saber mas</span>
                                 </div>
 
                                 <div class="team-over">
                                     <h4 class="hidden-md-down">
-                                        Contacta Conmigo
-                                    </h4>
-
-                                    <nav class="social-nav">
-                                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                                    </nav>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                                    </p>
+                                        Drone aereo completamente autonomo con finalidad militar
+                                    </h4>>
                                 </div>
                             </a>
                         </div>
@@ -453,21 +445,13 @@
                         <div class="card card-block">
                             <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
-                                    <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                                    <span class="card-title">Robotech Server</span> <span class="card-text">Saber mas</span>
                                 </div>
 
                                 <div class="team-over">
                                     <h4 class="hidden-md-down">
-                                        Contacta Conmigo
+                                        Servidor para mayor facilidad en tareas de administracion y promocion de la asociacion
                                     </h4>
-
-                                    <nav class="social-nav">
-                                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                                    </nav>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                                    </p>
                                 </div>
                             </a>
                         </div>
@@ -477,21 +461,13 @@
                         <div class="card card-block">
                             <a href="#"><img alt="" class="team-img" src="img/Laboratorio.jpg">
                                 <div class="card-title-wrap">
-                                    <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
+                                    <span class="card-title">Proyecto Submarino</span> <span class="card-text">Saber mas</span>
                                 </div>
 
                                 <div class="team-over">
                                     <h4 class="hidden-md-down">
-                                        Contacta Conmigo
+                                        Drone autonomo submarino capaz de buscar objetivos
                                     </h4>
-
-                                    <nav class="social-nav">
-                                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                                    </nav>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                                    </p>
                                 </div>
                             </a>
                         </div>
