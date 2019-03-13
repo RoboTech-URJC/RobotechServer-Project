@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-    include '../php/session.php';
-?>  
+
 <head>
     <meta charset="utf-8">
     <title>FAQ - Bootstrap Admin Template</title>
@@ -169,130 +167,13 @@
 
 	      <div class="row">
 
-	      	<div class="span12">
+	      	<div class="span4">
 
 	      		<div id="target-1" class="widget">
 
 	      			<div class="widget-content">
 
-			      		<h1>12 Columns</h1>
-
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		      		</div> <!-- /widget-content -->
-
-	      		</div> <!-- /widget -->
-
-      		</div> <!-- /span12 -->
-
-
-
-
-
-
-	      	<div class="span6">
-
-	      		<div class="widget">
-
-	      			<div class="widget-content">
-
-			      		<h1>6 Columns</h1>
-
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-
-		      		</div> <!-- /widget-content -->
-
-	      		</div> <!-- /widget -->
-
-      		</div> <!-- /span6 -->
-
-
-	      	<div class="span6">
-
-	      		<div id="target-2" class="widget">
-
-	      			<div class="widget-content">
-
-			      		<h1>6 Columns</h1>
-
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-
-		      		</div> <!-- /widget-content -->
-
-	      		</div> <!-- /widget -->
-
-      		</div> <!-- /span6 -->
-
-
-
-
-
-
-
-	      	<div class="span4">
-
-	      		<div id="target-3" class="widget">
-
-	      			<div class="widget-content">
-
-			      		<h1>4 Columns</h1>
-
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-		      		</div> <!-- /widget-content -->
-
-	      		</div> <!-- /widget -->
-
-      		</div> <!-- /span4 -->
-
-
-	      	<div class="span4">
-
-	      		<div class="widget">
-
-	      			<div class="widget-content">
-
-			      		<h1>4 Columns</h1>
-
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-		      		</div> <!-- /widget-content -->
-
-	      		</div> <!-- /widget -->
-
-      		</div> <!-- /span4 -->
-
-
-	      	<div class="span4">
-
-	      		<div class="widget">
-
-	      			<div class="widget-content">
-
-			      		<h1>4 Columns</h1>
-
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-		      		</div> <!-- /widget-content -->
-
-	      		</div> <!-- /widget -->
-
-      		</div> <!-- /span4 -->
-
-
-
-
-
-
-
-
-	      	<div class="span3">
-
-	      		<div class="widget">
-
-	      			<div class="widget-content">
-
-			      		<h1>3 Columns</h1>
+			      		<center><a href="../php/report.php"><button class="button btn btn-success btn-large">Generar libro de miembros</button></a></center>
 
 			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
@@ -303,13 +184,13 @@
       		</div> <!-- /span3 -->
 
 
-	      	<div id="target-4" class="span3">
+	      	<div id="target-2" class="span4">
 
 	      		<div class="widget">
 
 	      			<div class="widget-content">
 
-			      		<h1>3 Columns</h1>
+			      		<center><a href="../docs/modelos/modelo01.pdf"><button class="button btn btn-success btn-large">Generar certificado de miembros</button></a></center>
 
 			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
@@ -320,13 +201,13 @@
       		</div> <!-- /span3 -->
 
 
-	      	<div class="span3">
+	      	<div id="target-3" class="span4">
 
 	      		<div class="widget">
 
 	      			<div class="widget-content">
 
-			      		<h1>3 Columns</h1>
+			      		<center><a href="../docs/modelos/modelo01.pdf"><button class="button btn btn-success btn-large">Generar libro de actas</button></a></center>
 
 			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
@@ -337,21 +218,139 @@
       		</div> <!-- /span3 -->
 
 
-	      	<div class="span3">
+            <div class="span3">
 
-	      		<div class="widget">
+                <div class="widget">
 
-	      			<div class="widget-content">
+                    <div class="widget-content">
 
-			      		<h1>3 Columns</h1>
+                        <h1>3 Columns</h1>
 
-			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
-		      		</div> <!-- /widget-content -->
+                    </div> <!-- /widget-content -->
 
-	      		</div> <!-- /widget -->
+                </div> <!-- /widget -->
 
-      		</div> <!-- /span3 -->
+            </div> <!-- /span3 -->
+
+
+            <div id="target-4" class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
+
+
+            <div class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
+
+
+            <div class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
+
+            <div class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
+
+
+            <div id="target-4" class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
+
+
+            <div class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
+
+
+            <div class="span3">
+
+                <div class="widget">
+
+                    <div class="widget-content">
+
+                        <h1>3 Columns</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                    </div> <!-- /widget-content -->
+
+                </div> <!-- /widget -->
+
+            </div> <!-- /span3 -->
 
 
 	      </div> <!-- /row -->
